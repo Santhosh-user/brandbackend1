@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const connect = ()=>{
  
-     return mongoose.connect(process.env.DB)
+     return mongoose.connect(process.env.CRT)
  
 }
 
