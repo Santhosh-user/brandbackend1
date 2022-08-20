@@ -28,6 +28,7 @@ route.post("/signup",async(req,res)=>{
 
         return res.status(200).send({token});
     }
+    
     catch(err){
         console.log(err);
     }
