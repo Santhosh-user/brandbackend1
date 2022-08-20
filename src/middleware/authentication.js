@@ -40,6 +40,7 @@ module.exports = async (req, res, next) => {
             message: "authorization invalid or token not found",
         });
     }
+    
 
     req.user = user.user;
 
